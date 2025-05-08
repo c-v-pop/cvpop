@@ -16,10 +16,6 @@
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
     
-        <!-- Tailwind & Custom Styles -->
-        <link href="dist/output.css" rel="stylesheet">
-        <link href="/styles/index.css" rel="stylesheet">
-    
         <!-- Vite (Laravel Hot Reload or Production Assets) -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -94,7 +90,7 @@
               <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                   <div class="flex flex-col">
                       <h3 class="text-center text-2xl font-bold">Vorba cu Sufletul</h3>
-                      <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 rounded-lg">
+                      <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                   </div>
                   <div class="flex flex-col md:mt-10">
                       <p class="text-md text-left">
@@ -116,7 +112,7 @@
               <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                   <div class="flex flex-col">
                       <h3 class="text-center text-2xl font-bold">Reservia</h3>
-                      <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 rounded-lg">
+                      <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                   </div>
                   <div class="flex flex-col md:mt-10">
                       <p class="text-md text-left">
@@ -150,7 +146,7 @@
                 <a href="https://laalexiaatelier.co.uk/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                     <div class="flex flex-col">
                         <h3 class="text-center text-2xl font-bold">LaAlexia Beauty Salon</h3>
-                        <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 rounded-lg">
+                        <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                     </div>
                     <div class="flex flex-col md:mt-10">
                         <p class="text-lg text-left">
@@ -166,7 +162,7 @@
                 <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                     <div class="flex flex-col">
                         <h3 class="text-center text-2xl font-bold">Laravel To-Do List</h3>
-                        <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 rounded-lg">
+                        <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                     </div>
                     <div class="flex flex-col md:mt-10">
                         <p class="text-lg text-left">
