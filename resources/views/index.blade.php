@@ -89,11 +89,11 @@
          <div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap">
             <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold">Vorba cu Sufletul</h3>
+                  <h3 class="text-center text-2xl font-bold text-gray-200">Vorba cu Sufletul</h3>
                   <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col md:mt-10">
-                  <p class="text-md text-left">
+                  <p class="text-md text-left text-gray-200">
                      <span class="text-[#64FFDA] font-bold">Vorba cu Sufletul</span> was my first  
                      <span class="text-[#64FFDA] font-bold">paid WordPress project</span>, where I built  
                      a website for a <span class="font-bold">family constellation practitioner</span>  
@@ -110,11 +110,11 @@
             </a>
             <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold">Reservia</h3>
+                  <h3 class="text-center text-2xl font-bold text-gray-200">Reservia</h3>
                   <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col md:mt-10">
-                  <p class="text-md text-left">
+                  <p class="text-md text-left text-gray-200">
                      <span class="text-[#64FFDA] font-bold">Reservia</span> is a project I built during a 
                      <span class="text-[#64FFDA] font-bold">Bootcamp</span>, where I turned 
                      <span class="underline font-bold">mockups into code</span> using 
@@ -138,15 +138,15 @@
             </a>
          </div>
          <h2 class="text-center capitalize font-mono font-extrabold text-4xl text-[#64FFDA] mt-16" id="fullstack">Fullstack Projects</h2>
-         <p class="text-center mb-4">These projects are also available on my GitHub account</p>
+         <p class="text-center mb-4 text-gray-200">These projects are also available on my GitHub account</p>
          <div class="flex flex-col md:flex-row py-4 gap-6 fullstack">
             <a href="https://laalexiaatelier.co.uk/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold">LaAlexia Beauty Salon</h3>
+                  <h3 class="text-center text-2xl font-bold text-gray-200">LaAlexia Beauty Salon</h3>
                   <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col md:mt-10">
-                  <p class="text-lg text-left">
+                  <p class="text-lg text-left text-gray-200">
                      I <span class="font-bold text-[#64FFDA]">fully built a website</span> for a top beauty salon in my town, 
                      <span class="font-bold text-[#64FFDA]">LaAlexia Beauty Salon</span>, from scratch.  
                      I handled <span class="font-bold text-[#64FFDA]">hosting & deployment</span> via <span class="font-bold text-[#64FFDA]">GoDaddy</span> and <span class="font-bold text-[#64FFDA]">Ploi.io</span>.  
@@ -157,11 +157,11 @@
             </a>
             <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold">Laravel To-Do List</h3>
+                  <h3 class="text-center text-2xl font-bold text-gray-200">Laravel To-Do List</h3>
                   <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col md:mt-10">
-                  <p class="text-lg text-left">
+                  <p class="text-lg text-left text-gray-200">
                      This <span class="font-bold text-[#64FFDA]">Laravel To-Do List</span> project was part of a <span class="font-bold text-[#64FFDA]">technical test</span>.  
                      It was built with <span class="font-bold text-[#64FFDA]">Laravel</span>, <span class="font-bold text-[#64FFDA]">MySQL</span>, and <span class="font-bold text-[#64FFDA]">Tailwind CSS</span>.  
                      The app follows the <span class="font-bold text-[#64FFDA]">MVC architecture</span>, ensuring scalability and efficient task management.  
@@ -177,7 +177,7 @@
             </a>
          </div>
          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" id="offers">
-            <h2 class="text-3xl font-bold text-center mb-8">Website Packages Offers</h2>
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-200">Website Packages Offers</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                <!-- Starter Plan -->
                <div class="bg-[#112240] shadow-md rounded-2xl p-6 flex flex-col justify-between">
@@ -193,7 +193,7 @@
                      </ul>
                   </div>
                   <div class="mt-6">
-                     <p class="text-2xl font-bold mb-2">£150</p>
+                     <p class="text-2xl font-bold mb-2 text-gray-200">£150</p>
                      <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
                      <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">Contact Me</button>
                      </a>
@@ -213,7 +213,7 @@
                      </ul>
                   </div>
                   <div class="mt-6">
-                     <p class="text-2xl font-bold mb-2">£300</p>
+                     <p class="text-2xl font-bold mb-2 text-gray-200">£300</p>
                      <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
                      <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">Contact Me</button>
                      </a>
@@ -233,7 +233,7 @@
                      </ul>
                   </div>
                   <div class="mt-6">
-                     <p class="text-2xl font-bold mb-2">£450</p>
+                     <p class="text-2xl font-bold mb-2 text-gray-200">£450</p>
                      <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
                      <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">Contact Me</button>
                      </a>
@@ -248,7 +248,7 @@
                <i class="fas fa-arrow-up"></i>
                </a>
             </div>
-            <p class="text-center m-auto mt-10">&copy; 2025 Ciprian Pop. All rights reserved.</p>
+            <p class="text-center m-auto mt-10 text-gray-200">&copy; 2025 Ciprian Pop. All rights reserved.</p>
          </footer>
       </body>
    </html>
