@@ -37,27 +37,31 @@
          <header>
             <nav
                class="flex flex-wrap justify-between container m-auto text-sm md:text-lg py-2 my-3 md:sticky md:top-0 bg-[#0A192F]">
-               <div class="relative w-20 h-20 rounded-full bg-[#8892B0] p-1 m-1 hover:bg-[#64FFDA] avatar group">
-                  <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/">
-                  <img src="./images/avatar.PNG" alt="avatar" class="rounded-full bg-[#0A192F]">
-                  </a>
-                  <!-- Tooltip -->
-                  <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+               <div class="relative w-20 h-20 rounded-full bg-[#8892B0] p-1 m-1 group hover:bg-[#64FFDA]">
+               <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank">
+                  <!-- Default avatar -->
+                  <img src="./images/avatar.png" alt="avatar" class="rounded-full bg-[#0A192F] block group-hover:hidden">
+                  <!-- Hover avatar -->
+                  <img src="./images/avatar2.png" alt="avatar hover" class="rounded-full bg-[#0A192F] hidden group-hover:block">
+               </a>
+               <!-- Tooltip -->
+               <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
                   Visit My LinkedIn
-                  </span>
+               </span>
+               </div>
                </div>
                <div class="flex items-center">
                   <a href="https://github.com/c-v-pop" class="py-5 px-10 font-bold text-[#64FFDA]/50 hover:text-[#64FFDA]">GitHub Page</a>
                   <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail"
                      class="mx-4 md:py-5 md:px-10 font-bold text-[#64FFDA]/50 hover:text-[#64FFDA]">Get in touch</a>
                   <a href="media/C_V_Pop.pdf"
-                     class="py-5 px-10 border-[#CCD6F6] border-4 hover:border-[#64FFDA] hover:shadow-xl hover:shadow-[#64FFDA] font-bold text-[#64FFDA]/50"
+                     class="py-5 px-10 border-[#CCD6F6] border-4 hover:text-[#64FFDA] hover:border-[#64FFDA] hover:shadow-xl hover:shadow-[#64FFDA] font-bold text-[#64FFDA]/50"
                      download="C_V_Pop.pdf">Resume</a>
                </div>
             </nav>
             <div class="wrapper md:py-40 md:mt-8 mt-10">
                <div class="typing-demo text-center">
-                  <h1 class="md:py-8 text-[0.45em] md:text-2xl font-serif">Hello there! I'm
+                  <h1 class="md:py-8 text-[0.45em] md:text-2xl font-serif text-gray-200">Hello there! I'm
                      <span class="text-[#64FFDA] font-extrabold">Ciprian Pop</span>,
                      and I'm a <span class="text-accent font-bold">Web Developer</span>
                   </h1>
@@ -87,7 +91,7 @@
          </header>
          <h2 class="text-center capitalize font-mono font-extrabold text-4xl text-[#64FFDA]" id="frontend">Frontend Development</h2>
          <div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap">
-            <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+            <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
                   <h3 class="text-center text-2xl font-bold text-gray-200">Vorba cu Sufletul</h3>
                   <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
@@ -108,7 +112,7 @@
                   </p>
                </div>
             </a>
-            <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+            <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
                   <h3 class="text-center text-2xl font-bold text-gray-200">Reservia</h3>
                   <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
@@ -140,7 +144,7 @@
          <h2 class="text-center capitalize font-mono font-extrabold text-4xl text-[#64FFDA] mt-16" id="fullstack">Fullstack Projects</h2>
          <p class="text-center mb-4 text-gray-200">These projects are also available on my GitHub account</p>
          <div class="flex flex-col md:flex-row py-4 gap-6 fullstack">
-            <a href="https://laalexiaatelier.co.uk/" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+            <a href="https://laalexiaatelier.co.uk/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
                   <h3 class="text-center text-2xl font-bold text-gray-200">LaAlexia Beauty Salon</h3>
                   <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
@@ -155,7 +159,7 @@
                   </p>
                </div>
             </a>
-            <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
+            <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
                   <h3 class="text-center text-2xl font-bold text-gray-200">Laravel To-Do List</h3>
                   <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
