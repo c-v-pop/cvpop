@@ -1,24 +1,4 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Ciprian Pop's Portfolio</title>
-      <!-- Fonts -->
-      <link rel="preconnect" href="https://fonts.bunny.net">
-      <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-      <!-- Font Awesome -->
-      <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
-      <!-- Vite (Laravel Hot Reload or Production Assets) -->
-      @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-      @vite(['resources/css/app.css', 'resources/js/app.js'])
-      @endif
-      <!-- Optional JS -->
-      <script src="/demo/index.js" defer></script>
-   </head>
    <html lang="en" class="scroll-smooth">
       <head>
          <meta charset="UTF-8">
@@ -37,17 +17,17 @@
          <header>
             <nav
                class="flex flex-wrap justify-between container m-auto text-sm md:text-lg py-2 my-3 md:sticky md:top-0 bg-[#0A192F]">
-               <div class="relative w-20 h-20 rounded-full bg-[#8892B0] p-1 m-1 group hover:bg-[#64FFDA]">
-               <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank">
-                  <!-- Default avatar -->
-                  <img src="./images/avatar.png" alt="avatar" class="rounded-full bg-[#0A192F] block group-hover:hidden">
-                  <!-- Hover avatar -->
-                  <img src="./images/avatar2.png" alt="avatar hover" class="rounded-full bg-[#0A192F] hidden group-hover:block">
-               </a>
-               <!-- Tooltip -->
-               <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+               <div class="md:sticky w-20 h-20 rounded-full bg-[#8892B0] p-1 m-1 group hover:bg-[#64FFDA] fixed bottom-6 right-4 align-middle">
+                  <a href="https://www.linkedin.com/in/ciprian-pop-9a5169157/" target="_blank">
+                     <!-- Default avatar -->
+                     <img src="./images/avatar.png" alt="avatar" class="rounded-full bg-[#0A192F] block group-hover:hidden duration-300">
+                     <!-- Hover avatar -->
+                     <img src="./images/avatar2.png" alt="avatar hover" class="rounded-full bg-[#0A192F] hidden group-hover:block duration-300">
+                  </a>
+                  <!-- Tooltip -->
+                  <span class="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-gray-800 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
                   Visit My LinkedIn
-               </span>
+                  </span>
                </div>
                </div>
                <div class="flex items-center">
@@ -60,36 +40,37 @@
                </div>
             </nav>
             <div class="wrapper md:py-40 md:mt-8 mt-10">
-               <div class="typing-demo text-center">
-                  <h1 class="md:py-8 text-[0.45em] md:text-2xl font-serif text-gray-200">Hello there! I'm
-                     <span class="text-[#64FFDA] font-extrabold">Ciprian Pop</span>,
-                     and I'm a <span class="text-accent font-bold">Web Developer</span>
+               <div class="text-center">
+                  <h1 class="md:py-8 text-md md:text-2xl font-serif text-gray-200 mx-10">
+                     Hi, I'm <span class="text-[#64FFDA] font-extrabold">Ciprian Pop</span>, a 
+                     <span class="text-accent font-bold">Web Developer</span> who builds fast, clean websites.
                   </h1>
                </div>
-               <p class="text-lg mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[60%] text-gray-200">I am a 
-                  <span class="font-bold text-accent">professional web developer</span> with a passion for creating 
-                  <span class="font-bold text-[#CCD6F6]">user-friendly</span> and <span class="font-bold text-[#CCD6F6]">visually appealing
-                  </span> websites. With expertise in 
-                  <span class="font-bold text-[#64FFDA]">HTML</span>, 
-                  <span class="font-bold text-[#64FFDA]">CSS</span>, 
-                  <span class="font-bold text-[#64FFDA]">JavaScript</span>, and various 
-                  <span class="font-bold text-accent">web development frameworks</span>, I bring a wealth of technical skills to every project. My goal is to 
-                  <span class="font-bold text-[#CCD6F6]">design</span> and <span class="font-bold text-[#CCD6F6]">develop websites</span> that meet the unique needs of each client and enhance their 
-                  <span class="font-bold text-[#64FFDA]">online presence</span>.
+
+               <p class="text-lg mt-[2em] md:text-2xl m-auto text-center md:py-8 max-w-[80%] text-gray-200">
+                  I work with <span class="font-bold text-[#64FFDA]">Laravel</span>, 
+                  <span class="font-bold text-[#64FFDA]">Blade</span>, 
+                  <span class="font-bold text-[#64FFDA]">TailwindCSS</span>, 
+                  <span class="font-bold text-[#64FFDA]">PHP</span>, and 
+                  <span class="font-bold text-[#64FFDA]">MySQL</span> to build sites that are 
+                  <span class="font-bold text-[#CCD6F6]">user-friendly</span> and 
+                  <span class="font-bold text-[#CCD6F6]">visually sharp</span>. 
+                  I focus on simplicity, usability, and performance — without overcomplicating things.
                </p>
+
                <div class="flex flex-col md:flex-row justify-center items-center my-8" style="gap: 3rem;">
                   <a href="#frontend"
-                     class="text-center text-[#64FFDA]/50 border-2 border-[#64FFDA]/50 bg-transparent p-4 md:p-6 rounded-md text-2xl hover:text-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-full md:w-auto">
+                     class="text-center text-[#64FFDA]/50 border-2 border-[#64FFDA]/50 bg-transparent p-2 md:p-6  rounded-md text-2xl hover:text-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-auto">
                   Frontend Projects
                   </a>
                   <a href="#fullstack"
-                     class="text-center text-[#64FFDA]/50 border-2 border-[#64FFDA]/50 bg-transparent p-4 md:p-6 rounded-md text-2xl hover:text-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-full md:w-auto">
+                     class="text-center text-[#64FFDA]/50 border-2 border-[#64FFDA]/50 bg-transparent p-2 md:p-6 rounded-md text-2xl hover:text-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] font-bold w-auto">
                   Fullstack Projects
                   </a>
                </div>
             </div>
          </header>
-         <h2 class="text-center capitalize font-mono font-extrabold text-4xl text-[#64FFDA]" id="frontend">Frontend Development</h2>
+         <h2 class="text-center capitalize font-mono font-extrabold text-4xl text-[#64FFDA] mt-6" id="frontend">Frontend Development</h2>
          <div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap">
             <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
@@ -97,84 +78,80 @@
                   <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
-               <!-- Project description -->
-               <div class="text-md text-left text-gray-200 leading-relaxed">
-                  <p>
-                     <span class="text-[#64FFDA] font-bold">Vorba cu Sufletul</span> was my first  
-                     <span class="text-[#64FFDA] font-bold">paid WordPress project</span>, where I built  
-                     a website for a <span class="font-bold">family constellation practitioner</span>  
-                     according to their specific requirements.
-                  </p>
-                  <p class="mt-2">
-                     This project introduced me to <span class="font-bold">WordPress</span>, allowing me to explore its  
-                     <span class="font-bold text-[#64FFDA]">templates, premium themes, and widgets</span>  
-                     to create a visually appealing and functional site.
-                  </p>
-                  <p class="mt-2">
-                     I also applied <span class="font-bold text-[#64FFDA]">SEO techniques</span> to improve visibility  
-                     and drive traffic, giving me a solid foundation in customization and user engagement.
-                  </p>
+                  <!-- Project description -->
+                  <div class="text-md text-left text-gray-200 leading-relaxed">
+                     <p>
+                        <span class="text-[#64FFDA] font-bold">Vorba cu Sufletul</span> was my first  
+                        <span class="text-[#64FFDA] font-bold">paid WordPress project</span>, where I built  
+                        a website for a <span class="font-bold">family constellation practitioner</span>  
+                        according to their specific requirements.
+                     </p>
+                     <p class="mt-2">
+                        This project introduced me to <span class="font-bold">WordPress</span>, allowing me to explore its  
+                        <span class="font-bold text-[#64FFDA]">templates, premium themes, and widgets</span>  
+                        to create a visually appealing and functional site.
+                     </p>
+                     <p class="mt-2">
+                        I also applied <span class="font-bold text-[#64FFDA]">SEO techniques</span> to improve visibility  
+                        and drive traffic, giving me a solid foundation in customization and user engagement.
+                     </p>
+                  </div>
+                  <!-- Technologies Used -->
+                  <div>
+                     <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
+                     <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>WordPress</li>
+                        <li>HTML & CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Responsive Design</li>
+                        <li>SEO Basics</li>
+                     </ul>
+                  </div>
                </div>
-
-               <!-- Technologies Used -->
-               <div>
-                  <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
-                  <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
-                     <li>WordPress</li>
-                     <li>HTML & CSS</li>
-                     <li>Bootstrap</li>
-                     <li>Responsive Design</li>
-                     <li>SEO Basics</li>
-                  </ul>
-               </div>
-               </div>
-
             </a>
             <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
                   <h3 class="text-center text-2xl font-bold text-gray-200">Reservia</h3>
                   <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-<div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
-  <!-- Project description -->
-  <div class="text-md text-left text-gray-200 leading-relaxed">
-    <p>
-      <span class="text-[#64FFDA] font-bold">Reservia</span> is a project I built during a  
-      <span class="text-[#64FFDA] font-bold">Bootcamp</span>, where I turned  
-      <span class="underline font-bold">mockups into code</span> using  
-      <span class="italic font-bold">HTML, CSS, and GitHub</span>.
-    </p>
-    <p class="mt-2">
-      This was also my <span class="text-[#64FFDA] font-bold">introduction to Visual Studio Code</span>  
-      and my first dive into <span class="text-[#64FFDA] font-bold">responsive design</span>.
-    </p>
-    <p class="mt-2">
-      The challenge was to build a <span class="text-[#64FFDA] font-bold">fully responsive</span> website  
-      that adapts perfectly to <span class="text-[#64FFDA] font-bold">any device</span>, ensuring a smooth  
-      user experience whether on <span class="font-bold">desktop, tablet, or mobile</span>.
-    </p>
-    <p class="mt-2">
-      I really enjoyed experimenting with layouts, fine-tuning styles, and making sure everything  
-      looked just right across screen sizes. This project strengthened my understanding of  
-      <span class="underline font-bold">mobile-first design</span> and helped me apply  
-      <span class="italic font-bold">front-end development</span> best practices.
-    </p>
-  </div>
-
-  <!-- Technologies Used -->
-  <div>
-    <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
-    <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
-      <li>HTML5 (Semantic)</li>
-      <li>CSS</li>
-      <li>SCSS</li>
-      <li>Responsive Design</li>
-      <li>Git & GitHub</li>
-      <li>Visual Studio Code</li>
-    </ul>
-  </div>
-</div>
-
+               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
+                  <!-- Project description -->
+                  <div class="text-md text-left text-gray-200 leading-relaxed">
+                     <p>
+                        <span class="text-[#64FFDA] font-bold">Reservia</span> is a project I built during a  
+                        <span class="text-[#64FFDA] font-bold">Bootcamp</span>, where I turned  
+                        <span class="underline font-bold">mockups into code</span> using  
+                        <span class="italic font-bold">HTML, CSS, and GitHub</span>.
+                     </p>
+                     <p class="mt-2">
+                        This was also my <span class="text-[#64FFDA] font-bold">introduction to Visual Studio Code</span>  
+                        and my first dive into <span class="text-[#64FFDA] font-bold">responsive design</span>.
+                     </p>
+                     <p class="mt-2">
+                        The challenge was to build a <span class="text-[#64FFDA] font-bold">fully responsive</span> website  
+                        that adapts perfectly to <span class="text-[#64FFDA] font-bold">any device</span>, ensuring a smooth  
+                        user experience whether on <span class="font-bold">desktop, tablet, or mobile</span>.
+                     </p>
+                     <p class="mt-2">
+                        I really enjoyed experimenting with layouts, fine-tuning styles, and making sure everything  
+                        looked just right across screen sizes. This project strengthened my understanding of  
+                        <span class="underline font-bold">mobile-first design</span> and helped me apply  
+                        <span class="italic font-bold">front-end development</span> best practices.
+                     </p>
+                  </div>
+                  <!-- Technologies Used -->
+                  <div>
+                     <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
+                     <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>HTML5 (Semantic)</li>
+                        <li>CSS</li>
+                        <li>SCSS</li>
+                        <li>Responsive Design</li>
+                        <li>Git & GitHub</li>
+                        <li>Visual Studio Code</li>
+                     </ul>
+                  </div>
+               </div>
             </a>
          </div>
          <div class="flex mt-6">
@@ -191,81 +168,77 @@
                   <h3 class="text-center text-2xl font-bold text-gray-200">LaAlexia Beauty Salon</h3>
                   <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-<div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
-  <!-- Project description -->
-  <div class="text-md text-left text-gray-200 leading-relaxed">
-    <p>
-      I <span class="font-bold text-[#64FFDA]">fully built a website</span> for a top beauty salon in my town,  
-      <span class="font-bold text-[#64FFDA]">LaAlexia Beauty Salon</span>, from scratch.
-    </p>
-    <p class="mt-2">
-      I managed <span class="font-bold text-[#64FFDA]">hosting & deployment</span> using  
-      <span class="font-bold text-[#64FFDA]">GoDaddy</span> for the domain and  
-      <span class="font-bold text-[#64FFDA]">Ploi.io</span> for server configuration and deployment.
-    </p>
-    <p class="mt-2">
-      The site includes an integrated <span class="font-bold text-[#64FFDA]">Booksy</span> appointment booking system and  
-      was developed with <span class="font-bold text-[#64FFDA]">Laravel, TailwindCSS, and JavaScript</span>.  
-      I also applied <span class="font-bold text-[#64FFDA]">SEO optimizations</span> to boost local search visibility.
-    </p>
-  </div>
-
-  <!-- Technologies Used -->
-  <div>
-    <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
-    <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
-      <li>Laravel</li>
-      <li>PHP</li>
-      <li>Blade Templating</li>
-      <li>TailwindCSS</li>
-      <li>JavaScript</li>
-      <li>Visual Studio Code</li>
-      <li>GoDaddy (Domain)</li>
-      <li>Ploi.io (Deployment)</li>
-      <li>Herd (Local Dev Server)</li>
-      <li>SEO Optimization</li>
-    </ul>
-  </div>
-</div>
-
+               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
+                  <!-- Project description -->
+                  <div class="text-md text-left text-gray-200 leading-relaxed">
+                     <p>
+                        I <span class="font-bold text-[#64FFDA]">fully built a website</span> for a top beauty salon in my town,  
+                        <span class="font-bold text-[#64FFDA]">LaAlexia Beauty Salon</span>, from scratch.
+                     </p>
+                     <p class="mt-2">
+                        I managed <span class="font-bold text-[#64FFDA]">hosting & deployment</span> using  
+                        <span class="font-bold text-[#64FFDA]">GoDaddy</span> for the domain and  
+                        <span class="font-bold text-[#64FFDA]">Ploi.io</span> for server configuration and deployment.
+                     </p>
+                     <p class="mt-2">
+                        The site includes an integrated <span class="font-bold text-[#64FFDA]">Booksy</span> appointment booking system and  
+                        was developed with <span class="font-bold text-[#64FFDA]">Laravel, TailwindCSS, and JavaScript</span>.  
+                        I also applied <span class="font-bold text-[#64FFDA]">SEO optimizations</span> to boost local search visibility.
+                     </p>
+                  </div>
+                  <!-- Technologies Used -->
+                  <div>
+                     <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
+                     <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>Laravel</li>
+                        <li>PHP</li>
+                        <li>Blade Templating</li>
+                        <li>TailwindCSS</li>
+                        <li>JavaScript</li>
+                        <li>Visual Studio Code</li>
+                        <li>GoDaddy (Domain)</li>
+                        <li>Ploi.io (Deployment)</li>
+                        <li>Herd (Local Dev Server)</li>
+                        <li>SEO Optimization</li>
+                     </ul>
+                  </div>
+               </div>
             </a>
             <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
                   <h3 class="text-center text-2xl font-bold text-gray-200">Laravel To-Do List</h3>
                   <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-<div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
-  <!-- Project description -->
-  <div class="text-md text-left text-gray-200 leading-relaxed">
-    <p>
-      This <span class="font-bold text-[#64FFDA]">Laravel To-Do List</span> project was part of a  
-      <span class="font-bold text-[#64FFDA]">technical test</span>.
-    </p>
-    <p class="mt-2">
-      It was built using <span class="font-bold text-[#64FFDA]">Laravel</span>, <span class="font-bold text-[#64FFDA]">MySQL</span>,  
-      and <span class="font-bold text-[#64FFDA]">Tailwind CSS</span>.
-    </p>
-    <p class="mt-2">
-      The app follows the <span class="font-bold text-[#64FFDA]">MVC architecture</span>, ensuring scalability and efficient task management.  
-      The backend logic is powered by <span class="font-bold text-[#64FFDA]">PHP</span>, while the responsive UI delivers a smooth user experience.
-    </p>
-  </div>
-
-  <!-- Technologies Used -->
-  <div>
-    <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
-    <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
-      <li>Laravel</li>
-      <li>PHP</li>
-      <li>MySQL</li>
-      <li>TailwindCSS</li>
-      <li>MVC Architecture</li>
-      <li>Responsive Design</li>
-      <li>Visual Studio Code</li>
-    </ul>
-  </div>
-</div>
-
+               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
+                  <!-- Project description -->
+                  <div class="text-md text-left text-gray-200 leading-relaxed">
+                     <p>
+                        This <span class="font-bold text-[#64FFDA]">Laravel To-Do List</span> project was part of a  
+                        <span class="font-bold text-[#64FFDA]">technical test</span>.
+                     </p>
+                     <p class="mt-2">
+                        It was built using <span class="font-bold text-[#64FFDA]">Laravel</span>, <span class="font-bold text-[#64FFDA]">MySQL</span>,  
+                        and <span class="font-bold text-[#64FFDA]">Tailwind CSS</span>.
+                     </p>
+                     <p class="mt-2">
+                        The app follows the <span class="font-bold text-[#64FFDA]">MVC architecture</span>, ensuring scalability and efficient task management.  
+                        The backend logic is powered by <span class="font-bold text-[#64FFDA]">PHP</span>, while the responsive UI delivers a smooth user experience.
+                     </p>
+                  </div>
+                  <!-- Technologies Used -->
+                  <div>
+                     <h3 class="text-[#64FFDA] text-sm font-semibold uppercase tracking-wide mb-2">Technologies Used</h3>
+                     <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>Laravel</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>TailwindCSS</li>
+                        <li>MVC Architecture</li>
+                        <li>Responsive Design</li>
+                        <li>Visual Studio Code</li>
+                     </ul>
+                  </div>
+               </div>
             </a>
          </div>
          <div class="flex mt-6">
