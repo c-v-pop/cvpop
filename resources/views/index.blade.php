@@ -266,7 +266,7 @@
                   <div class="mt-6">
                      <p class="text-2xl font-bold mb-2 text-gray-200">£150</p>
                      <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
-                     <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">Contact Me</button>
+                     <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition hover:cursor-pointer">Contact Me</button>
                      </a>
                   </div>
                </div>
@@ -286,7 +286,7 @@
                   <div class="mt-6">
                      <p class="text-2xl font-bold mb-2 text-gray-200">£300</p>
                      <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
-                     <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">Contact Me</button>
+                     <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition hover:cursor-pointer">Contact Me</button>
                      </a>
                   </div>
                </div>
@@ -306,7 +306,7 @@
                   <div class="mt-6">
                      <p class="text-2xl font-bold mb-2 text-gray-200">£450</p>
                      <a href="mailto:ciprianvlad888@gmail.com?subject=The%20subject%20of%20the%20mail">
-                     <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">Contact Me</button>
+                     <button class="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition hover:cursor-pointer">Contact Me</button>
                      </a>
                   </div>
                </div>
