@@ -77,7 +77,7 @@
                   <h3 class="text-center text-2xl font-bold text-gray-200">Vorba cu Sufletul</h3>
                   <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
+               <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
                   <!-- Project description -->
                   <div class="text-md text-left text-gray-200 leading-relaxed">
                      <p>
@@ -114,7 +114,7 @@
                   <h3 class="text-center text-2xl font-bold text-gray-200">Reservia</h3>
                   <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
+               <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
                   <!-- Project description -->
                   <div class="text-md text-left text-gray-200 leading-relaxed">
                      <p>
@@ -168,7 +168,7 @@
                   <h3 class="text-center text-2xl font-bold text-gray-200">LaAlexia Beauty Salon</h3>
                   <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
+               <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
                   <!-- Project description -->
                   <div class="text-md text-left text-gray-200 leading-relaxed">
                      <p>
@@ -209,7 +209,7 @@
                   <h3 class="text-center text-2xl font-bold text-gray-200">Laravel To-Do List</h3>
                   <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
-               <div class="flex flex-col md:mt-10 space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
+               <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
                   <!-- Project description -->
                   <div class="text-md text-left text-gray-200 leading-relaxed">
                      <p>
