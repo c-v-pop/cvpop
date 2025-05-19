@@ -74,8 +74,8 @@
          <div class="flex flex-col md:flex-row py-4 gap-6 frontend md:flex-wrap">
             <a href="https://vorbacusufletul.wordpress.com/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold text-gray-200">Vorba cu Sufletul</h3>
-                  <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
+                  <h3 class="text-center text-2xl font-bold text-gray-200 mb-4">Vorba cu Sufletul</h3>
+                  <img src="./images/soul.jpg" alt="Monk pouring water from plate" class="sm mb-4 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
                   <!-- Project description -->
@@ -111,8 +111,8 @@
             </a>
             <a href="https://c-v-pop.github.io/Reservia/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold text-gray-200">Reservia</h3>
-                  <img src="./images/reservia.webp" alt="Bunk beds image" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
+                  <h3 class="text-center text-2xl font-bold text-gray-200 mb-4">Reservia</h3>
+                  <img src="./images/reservia.webp" alt="Bunk beds image" class="sm mb-4 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
                   <!-- Project description -->
@@ -165,8 +165,8 @@
          <div class="flex flex-col md:flex-row py-4 gap-6 fullstack">
             <a href="https://laalexiaatelier.co.uk/" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold text-gray-200">LaAlexia Beauty Salon</h3>
-                  <img src="./images/alexia.webp" alt="Alexia website logo" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
+                  <h3 class="text-center text-2xl font-bold text-gray-200 mb-4">LaAlexia Beauty Salon</h3>
+                  <img src="./images/alexia.webp" alt="Alexia website logo" class="sm mb-4 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md">
                   <!-- Project description -->
@@ -206,8 +206,8 @@
             </a>
             <a href="https://github.com/c-v-pop/to-do-list" class="space-x-3.5 m-[2em] bg-[#112240] flex flex-col flex-1 border-2 border-[#64FFDA] hover:shadow-[0_0_10px_3px_#64FFDA] rounded-md p-4">
                <div class="flex flex-col">
-                  <h3 class="text-center text-2xl font-bold text-gray-200">Laravel To-Do List</h3>
-                  <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm p-5 w-[100%] h-[22em] rounded-3xl object-cover">
+                  <h3 class="text-center text-2xl font-bold text-gray-200 mb-4">Laravel To-Do List</h3>
+                  <img src="./images/dolist.jpg" alt="To-Do list notebook" class="sm mb-4 w-[100%] h-[22em] rounded-3xl object-cover">
                </div>
                <div class="flex flex-col space-y-4 bg-[#0A192F] p-6 rounded-lg shadow-md h-full">
                   <!-- Project description -->
